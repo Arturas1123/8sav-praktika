@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.component-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header {
+  margin-bottom: 36px;
+  margin-left: 83px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 130px;
+}
+
+.logo {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 876.41px;
+}
+
+.menu {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.pagrindinis {
+  width: 30.88%;
+  height: 96%;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: underline;
+  margin-right: 60.36px;
+  text-decoration: none;
+}
+
+.galerija {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 60.36px;
+  text-decoration: none;
+}
+
+.kainos {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url(./asset/images/hero_image.png);
+  width: 1346px;
+  height: 665px;
+  margin-bottom: 108px;
+  margin-left: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline {
+  width: 41.33%;
+  height: 17%;
+  font-family: "Inter";
+  font-size: 64px;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 180px;
+  margin-left: 225px;
+}
+
+.text {
+  width: 50%;
+  height: 120px;
+  display: flex;
+}
+
+.loerem-ipsum-areligt-taeliga-olig-beparad {
+  height: 100px;
+  display: flex;
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  text-align: center;
+
+}
+
+.flex-wrapper-one {
+  display: flex;
+  align-items: center;
+}
+
+.hero-button-black {
+  background-color: rgba(20, 20, 20, 1);
+  margin-right: 11px;
+  padding: 13.2px 24px 12px 23px;
+  display: flex;
+  align-items: center;
+}
+
+.el-parduotuve {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(255, 255, 255, 1);
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  text-decoration: none;
+}
+
+.hero-button-white {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 13.2px 0px 12px 23px;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.pateikti-individualu-uzsakyma {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  text-decoration: none;
+  margin-right: 23px;
+}
+
+.kvmr-section {
+  background-color: rgba(246, 246, 246, 1);
+  margin-bottom: 118px;
+  padding: 114px 199px 76px 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.kodel-verta-mus-rinktis {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 102px;
+  margin-left: 310px;
+}
+
+.flex-wrapper-four {
+  display: flex;
+  align-items: flex-start;
+}
+
+.block-1 {
+  margin-right: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rectangle-13 {
+  margin-bottom: 80px;
+  margin-left: 24px;
+  border-radius: 41px;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre {
+
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  text-align: center;
+}
+
+.block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-2:not(:last-of-type) {
+  margin-right: 23px;
+}
+
+.pexels-1 {
+  margin-bottom: 82px;
+  border-radius: 41px;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre-two {
+
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  text-align: center;
+}
+
+.pexels-2 {
+  margin-bottom: 77px;
+  border-radius: 41px;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre-three {
+
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  display: flex;
+  text-align: center;
+}
+
+.duk-section {
+  margin-bottom: 154px;
+  margin-left: 257px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.d-u-k {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 118px;
+  margin-left: 436px;
+}
+
+.flex-wrapper-two {
+  margin-bottom: 90.41px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.duk-item-1 {
+  margin-right: 134px;
+  padding: 0 0 68px;
+  position: relative;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre-four {
+
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 111px;
+}
+
+.loerem-ipsum-dagen-saeplalingar {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+.duk-item-2 {
+  position: relative;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre-five {
+
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 110.54px;
+}
+
+.flex-wrapper-three {
+  margin-bottom: 188px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.duk-item-3 {
+  margin-top: 5px;
+  margin-right: 130px;
+  padding: 0 0 75px;
+  position: relative;
+}
+
+.loerem-ipsum-dagen-saeplalingar-lalig-tre-six {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 118px;
+}
+
+.duk-item-4 {
+  padding: 0 0 75px;
+  position: relative;
+}
+
+.duk-button-group {
+  margin-left: 222px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.dark-button {
+  background-color: rgba(65, 65, 65, 1);
+  margin-right: 16px;
+  border-radius: 11px;
+  padding: 12px 43px 12px 33px;
+  display: flex;
+  align-items: center;
+}
+
+.klauskite-gyvai {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(255, 255, 255, 1);
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  text-decoration: none;
+}
+
+.white-button {
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 11px;
+  padding: 12px 39px 12px 31px;
+  display: flex;
+  align-items: center;
+}
+
+.susisiekite {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sepertar {
+
+  background-color: rgba(210, 210, 210, 1);
+  margin-bottom: 90px;
+  align-self: stretch;
+}
+
+.newsletter-section {
+  margin-bottom: 221px;
+  margin-left: 397px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.naujienlaiskis {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 170px;
+}
+
+.loerem-ipsum-tangar-hexangen-du-kan-vara {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-left: 85px;
+}
+
+.flex-wrapper-one {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-input {
+  margin-right: 29px;
+  padding: 18px 331px 31px 21px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.bounding-box {
+  align-self: stretch;
+  margin-right: 11px;
+  object-fit: cover;
+}
+
+.newsletter-button {
+  background-color: rgba(18, 18, 18, 1);
+  padding: 22px 26px 22px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.prenumeruoti {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(255, 255, 255, 1);
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-section {
+  background-color: rgba(237, 237, 237, 1);
+  padding: 51px 125px 28px 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.kontaktai {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 46px;
+  margin-left: 495px;
+}
+.flex-wrapper-one {
+  margin-bottom: 126px;
+  display: flex;
+  align-items: flex-start;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 21px;
+}
+.address:not(:last-of-type) {
+  margin-right: 808px;
+}
+.mus-rasite {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 31px;
+}
+.sauletekio-al-17-vilnius {
+
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  text-align: center;
+}
+.darbo-laikas {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 31px;
+  
+}
+.i-v-1100-1700 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  text-align: center;
+}
+.component-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.line-1 {
+  align-self: stretch;
+  margin-bottom: 32px;
+  object-fit: cover;
+  margin-left: 17px;
+}
+.copyright-2022-all-rights-reserved {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-left: 429px;
+}
